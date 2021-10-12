@@ -1,0 +1,38 @@
+#contenedor{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    border: 2px solid black;
+    width: 50%;
+    height: 600px;
+    margin: auto;
+}
+
+#Rojo{
+    position: relative;
+    background-color: red;
+    width: 35%;
+    height: 200px;
+    margin: auto;
+    color: white;
+    }
+#Azul{
+    position: relative;
+    background-color:blue;
+    width: 35%;
+    height: 200px;
+    margin: auto;
+    color: white;
+}
+#Verde{
+    position: relative;
+    background-color:green;
+    width: 35%;
+    height: 200px;
+    margin: auto;
+    color: white;
+}
+p{
+    text-align: center;
+    margin: 90px;
+}
